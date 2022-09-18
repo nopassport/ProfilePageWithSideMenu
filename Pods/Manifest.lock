@@ -1,0 +1,20 @@
+PODS:
+  - SideMenu (6.5.0)
+  - SnapKit (5.6.0)
+
+DEPENDENCIES:
+  - SideMenu
+  - SnapKit (~> 5.6.0)
+
+SPEC REPOS:
+  trunk:
+    - SideMenu
+    - SnapKit
+
+SPEC CHECKSUMS:
+  SideMenu: f583187d21c5b1dd04c72002be544b555a2627a2
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+
+PODFILE CHECKSUM: 40d68b15ecf63d6464af9238cc64af7624c55042
+
+COCOAPODS: 1.11.3
