@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D04F03229A36BCF001B8F94 /* SideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D04F03129A36BCF001B8F94 /* SideMenuController.swift */; };
 		4DEBD68728D7948A0008F2AB /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEBD68628D7948A0008F2AB /* RootViewController.swift */; };
 		4DEC980628D7931400CCF5A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEC980528D7931400CCF5A0 /* AppDelegate.swift */; };
 		4DEC980828D7931400CCF5A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEC980728D7931400CCF5A0 /* SceneDelegate.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D04F03129A36BCF001B8F94 /* SideMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuController.swift; sourceTree = "<group>"; };
 		4DEBD68628D7948A0008F2AB /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		4DEC980228D7931400CCF5A0 /* ProfilePageWithSideMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProfilePageWithSideMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DEC980528D7931400CCF5A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				4DEC980528D7931400CCF5A0 /* AppDelegate.swift */,
 				4DEC980728D7931400CCF5A0 /* SceneDelegate.swift */,
 				4DEBD68628D7948A0008F2AB /* RootViewController.swift */,
+				4D04F03129A36BCF001B8F94 /* SideMenuController.swift */,
 				4DEC980928D7931400CCF5A0 /* ViewController.swift */,
 				4DEC980E28D7931500CCF5A0 /* Assets.xcassets */,
 				4DEC981028D7931500CCF5A0 /* LaunchScreen.storyboard */,
@@ -205,6 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D04F03229A36BCF001B8F94 /* SideMenuController.swift in Sources */,
 				4DEC980A28D7931400CCF5A0 /* ViewController.swift in Sources */,
 				4DEC980628D7931400CCF5A0 /* AppDelegate.swift in Sources */,
 				4DEBD68728D7948A0008F2AB /* RootViewController.swift in Sources */,

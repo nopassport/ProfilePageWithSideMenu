@@ -18,7 +18,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let winScene = (scene as? UIWindowScene) else { return }
         window = .init(windowScene: winScene)
         window?.makeKeyAndVisible()
-        window?.rootViewController = NavigationController(rootViewController: RootViewController())
+        window?.rootViewController = UINavigationController(rootViewController: RootViewController())
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
@@ -52,8 +52,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 }
 
-class NavigationController: UINavigationController {
-    override var childForStatusBarStyle: UIViewController? {
-        topViewController
-    }
-}
+//class NavigationController: UINavigationController {
+//    override var childForStatusBarStyle: UIViewController? {
+//        topViewController
+//    }
+//}

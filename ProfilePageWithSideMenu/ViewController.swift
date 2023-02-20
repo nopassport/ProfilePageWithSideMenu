@@ -78,7 +78,7 @@ class ViewController: UIViewController {
         avatarImageView.image = image
     }
  
-    //MARK: setup constraints
+    // setup constraints
     private func updateAvatarConstraints(withHeight height: Int) {
         avatarImageView.snp.updateConstraints {
             $0.top.equalTo(contentView).offset(height)
@@ -129,7 +129,7 @@ extension ViewController: UIScrollViewDelegate {
 //MARK: -  NavigationController Delegate
 extension ViewController: UINavigationControllerDelegate {
    
-    //MARK: setup NavigationController
+    // setup NavigationController
     private func setupNavigationController() {
         let appearance = UINavigationBarAppearance()
         appearance.configureWithOpaqueBackground()
